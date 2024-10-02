@@ -1,0 +1,30 @@
+* {
+    background-color: burlywood;
+}
+h1 {
+    color: beige;
+    text-align: center;
+}
+
+#recipe {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: darkslategrey;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display:block;
+    color: beige;
+    padding: 16px;
+    text-align: center;
+}
+
+li a:hover {
+    background-color: rgb(68, 122, 126);
+}

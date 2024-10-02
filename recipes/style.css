@@ -1,0 +1,23 @@
+* {
+    background-color: burlywood;
+}
+
+header,
+h1 {
+    font-family: 'Trebuchet MS', sans-serif;
+}
+
+header {
+    text-align: center;
+    font-size: larger;
+}
+
+h1 {
+    color:Beige;
+}
+
+img {
+    width: 700px;
+    height: auto;
+    padding: 10px;
+}
