@@ -25,11 +25,15 @@ img {
 }
 
 .list {
-    border-style: groove;
-    border-radius: 6%;
+    border: 4px ridge rgb(231, 199, 156);
+    border-radius: 1%;
     padding: 10px;
+    padding-left: 20px;
+    box-sizing: border-box;
+    overflow: wrap;
 }
 
 #ingredients {
+
     width: 400px;
 }
