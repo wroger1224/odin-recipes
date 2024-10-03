@@ -1,4 +1,4 @@
-* {
+body {
     background-color: burlywood;
 }
 
@@ -20,4 +20,16 @@ img {
     width: 700px;
     height: auto;
     padding: 10px;
+    border-style: solid;
+    border-color: beige;
+}
+
+.list {
+    border-style: groove;
+    border-radius: 6%;
+    padding: 10px;
+}
+
+#ingredients {
+    width: 400px;
 }
