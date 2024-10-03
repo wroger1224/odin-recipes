@@ -1,4 +1,4 @@
-* {
+body {
     background-color: burlywood;
 }
 h1 {
@@ -7,19 +7,25 @@ h1 {
 }
 
 #recipe {
-    list-style-type: none;
+    
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: darkslategrey;
+    
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
 }
 
 li {
-    float: left;
+    background-color: darkslategray;
 }
 
+
 li a {
-    display:block;
     color: beige;
     padding: 16px;
     text-align: center;
